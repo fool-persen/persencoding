@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://code.alibabatech.com/schema/dubbo
+	http://code.alibabatech.com/schema/dubbo/dubbo.xsd
+	 http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.1.xsd
+     http://www.springframework.org/schema/context  http://www.springframework.org/schema/context/spring-context-3.1.xsd
+    http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+	<dubbo:registry file=".dubbodubbo-hbase-registry.cache"
+		address="zookeeper://172.168.1.162:2181" />
+
+	<dubbo:reference id="GetBillService"
+		interface="com.tydic.dicdata.billing.hbase.scan.GetBillService" />
+
+	<configuration>
+		<property>
+			<name>fs.defaultFS</name>
+			<value>hdfs://dell07:9000</value>
+		</property>
+		<property>
+			<name>io.file.buffer.size</name>
+			<value>131072</value>
+		</property>
+		<property>
+			<name>hadoop.tmp.dir</name>
+			<value>file:/home/hadoop/hadoop/tmp</value>
+			<description>Abasefor other temporary directories.</description>
+		</property>
+		<property>
+			<name>hadoop.proxyuser.spark.hosts</name>
+			<value>*</value>
+		</property>
+		<property>
+			<name>hadoop.proxyuser.spark.groups</name>
+			<value>*</value>
+		</property>
+	</configuration>
+
+</beans>

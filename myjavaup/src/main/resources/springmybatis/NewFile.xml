@@ -1,0 +1,22 @@
+<beans...>
+	<bean id="transactionInterceptor"
+		class="org.springframework.transaction.interceptor.TransactionInterceptor">
+		<property name="transactionManager" ref="transactionManager" />
+		<property name="transactionAttributes">
+			<props>
+				<prop key="transfer">PROPAGATION_REQUIRED</prop>
+			</props>
+		</property>
+	</bean>
+	<bean id="bankServiceTarget" class="footmark.spring.core.tx.declare.origin.BankServiceImpl">
+		<property name="bankDao" ref="bankDao" />
+	</bean>
+	<bean id="bankService" class="org.springframework.aop.framework.ProxyFactoryBean">
+		<property name="target" ref="bankServiceTarget" />
+		<property name="interceptorNames">
+			<list>
+				<idref bean="transactionInterceptor" />
+			</list>
+		</property>
+	</bean>
+</beans>
