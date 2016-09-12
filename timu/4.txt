@@ -1,0 +1,1754 @@
+￼￼序号
+考题
+选项A
+选项B
+选项C
+选项D
+正确选项
+1
+针对linux/unix 下进行程序环境搭建,以下描述 错误的是?
+程序生成工具一般有 gcc,aCC,xlC,cc 等。
+程序调试工具一般有gdb , dbx,split 等。
+工程管理一般使用make 和 makefile 。
+strip 工具可以去掉可执行 程序中 由于-g选项增加的 内容,可以大大减少程序 文件大小。
+b
+2
+1关于函数库调用和系统调用的对比描述,错误的 是?
+前者在用户地址空间执
+行,后者在内核地址空间
+执行。
+前者它的运行时间属于“
+用户时间”,后者它的运
+行时间属于“系统”时间
+。
+前者属于属于过程调用,
+调用开销较小,后者需要
+在用户空间和内核上下文的
+环境间切换,开销较大。
+fprintf 函数属于系统调用 。
+d
+3
+产生系统死锁的原因可能是由于。
+进程释放资源
+一个进程进入死循环
+多个进程竞争,资源出现
+了循环等待
+多个进程竞争共享型设备
+c
+4
+UNIX系统中,进程调度采用的技术是。
+时间片轮转
+先来先服务
+静态优先数
+动态优先数
+d
+5
+采用重载函数的目的是。
+实现共享
+提升速度
+减少内存空间
+使用方便,易于维护和可
+读性。
+d
+6
+面向对象方法中,继承是指。
+一组对象所具有的相似性
+质
+一个对象完全具有另外一
+个对象的性质。
+各对象之间的共同性质
+类之间共享属性和操作的
+机制。
+d
+7
+每个C++可执行程序中都必须有且仅有一个。
+类
+预处理指令
+主函数
+语句
+c
+8
+下面关于C++语言的描述错误的是
+C++ 语言支持数据封装
+C++ 语言中引入友元没有破 坏封装性
+C++ 语言允许函数名和运算 符重载
+C++ 语言支持动态联编
+b
+9
+C++中类定义中默认的访问权限是。
+public     
+proteB ted
+private    
+default
+c
+10
+C语言中的标识符只能由字母,数字和下划线三种 字符组成,且第一个字符:
+必须为字母
+必须为下划线
+必须为字母或下划线
+可以是字母,数字和下划
+线中任一字符
+c
+11
+可在C程序中用作用户标识符的一组标识符是:
+12ab
+f-at
+aw~1e
+b6ty
+d
+12
+已知大写字母A的ASCII码值是65,小写字母a的 ASCII码是97,则用八进制表示的字符常量 ‘\102’是
+字符A
+字符a
+字符c
+字符B
+d
+13
+以下选项中不是字符常量的是:
+‘\v’
+‘\x6d ’
+‘w’
+“0”
+d
+14
+以下叙述中不正确的是:
+函数名属于用户标识符,
+其起名规则与变量相同
+形参只能是变量
+为保证程序的正确运行,
+函数中定义的变量不能与
+其他函数中定义的变量同
+名
+函数中定义的变量可以与
+其他函数中定义的变量同
+名
+c
+15
+以下叙述中正确的是。
+使用#define 可以为常量定 义一个名字,该名字在程 序中可以再赋另外的值
+使用B onst定义的常量名 有类型之分,其值在程序 运行时是不可改变的
+在程序中使用内联函数使
+程序的可读性变差
+在定义函数时可以在形参
+表的任何位置给出缺省形
+参值
+b
+16
+以下说法正确的是:
+关系运算符的优先级都比
+逻辑运算符底
+关系运算符的优先级都比
+逻辑运算符高
+关系运算符的优先级都比
+算术运算符底
+关系运算符的优先级都比
+算术运算符高
+b
+17
+以下输出结果是:
+330
+100
+74
+以上都不对
+c
+18
+1要求运算数必须是整型或字符型的运算符有
+&&
+&
+!
+||
+b
+19
+表达式!x等价于
+x==0
+x == 1
+x != 0
+x != 1
+a
+20
+1在C程序中,用____表示逻辑值"真" 。
+1
+非 0 的数
+非 1 的数
+大于 0 的数
+b
+21
+C语言中最简单的数据类型包括:
+整型、实型、逻辑型
+整型、实型、字符型
+整型、字符型、逻辑型
+字符型、实型、逻辑型
+b
+22
+设有以下定义,值为5的枚举常量是:
+tue
+sat
+fri
+thu
+a
+23
+C语言中,32位机子中double 型数据所占字节数 是:
+0.2
+4
+6
+8
+d
+24
+C语言中能用八进制表示的数据类型为
+字符型、整型
+整形、实型
+字符型、实型、双精度型
+字符型、整型、实型、双
+精度型
+a
+25
+以下选项中不正确的整型常量是。
+12L
+-10
+1,900
+123U
+c
+26
+定义一个结构体变量时,系统分配给他的内存单元
+是:
+全部成员所需的内存量之
+和
+全部成员所需的内存量的
+最大值
+固定的容量
+结构体中第一个成员所需
+的容量
+a
+￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼
+￼￼27
+能正确引用结构体变量std中成员age的表达式是
+std ->age
+*std ->age
+*p.age
+(*p.age
+d
+28
+则printf("%d\n" ,d[0].y/d[0].x*d[1].x ;的输 出结果是
+0
+1
+3
+6
+d
+29
+则对字符串lining的引用方式不可以的是
+(*p.name
+p.name
+a.name
+p->name
+b
+30
+32位机子中变量a所占的内存字节数是。
+8
+6
+16
+32
+a
+31
+若变量都已经正确定义,以下表达式中非法的是
+a/=b+c
+a % 4.0
+a=1/2*(x=y=10 , x*3
+a=b=c
+b
+32
+关于if语句中圆括号内的表达式,以下叙述正确的 是:
+只能用逻辑表达式
+只能用关系表达式
+只能用关系表达式或逻辑
+表达式
+可以用任意表达式
+d
+33
+若a=1、b=15、c=0 ,则表达式a>b>c的值为
+1
+0
+非0
+真
+b
+34
+如有如下定义:inta=5;则表达式(a++ -5的值为:
+0
+1
+-1
+不确定
+a
+35
+设有以下程序段,则值为6的表达式是:
+p++ ->n
+++p ->n
+p->n++
+(*p.n++
+b
+36
+设i和k都是int类型,则for 循环语句。 For(i=0,k= -1;k=1;i++,k++printf("****\n";
+循环结束的条件不合法
+循环体一次也不执行
+循环体只执行一次
+是无限循环
+d
+37
+在C语言中,下列说法中正确的是。
+不能使用“do语句while (条件”的循环
+“do语句While (条件”的 循环中必须使用“break ” 语句退出循环
+“do语句while (条件”的 循环中,当条件非0时将结 束循环
+“do语句while( 条件”的 循环中,当条件为0时将结 束循环
+d
+38
+C语言中while和do-while循环的主要区别是。
+do- while的循环体至少无 条件执行一次
+while 的循环控制条件比 do-while 的循环控制条件 严格
+do-while 允许从外部转到 循环体内
+do-while 的循环体不能是 复合语句
+a
+39
+以下程序段的输出结果是。
+4
+16
+8
+32
+c
+40
+程序运行后的输出结果是。
+4,3,2
+4,3,1,
+5,4,2
+5,3,1,
+b
+41
+若有以下定义语句: inta[10]={1,2,3,4,5,6,7,8,9,10}; 则下列哪个 是对该数组元素的正确引用:
+a[10]
+a[a[3] -5]
+a[a[9]]
+a[a[4]+4]
+d
+42
+若有以下定义语句:doublea[5],*p=a;inti=0; 则 对a数组元素的错误引用是:
+a[i]
+a[5]
+p[4]
+p[i]
+b
+43
+字符串:”\\0211\”xab ”的长度为:
+1
+9
+10
+11
+b
+44
+设有说明int(*ptr(; 其中标识符ptr是。
+是一个指向整形变量的指
+针
+是一个指针,它指向一个函 数值是int 的函数
+是一个函数名
+定义不合法
+b
+45
+在32位机子中,定义 double*(*a[3][6];sizeof(****a 的值为多少.
+4
+8
+24
+72
+b
+46
+1在类定义的外部,可以被访问的成员有。
+所有类成员
+private或proteB ted的类 成员
+public 的类成员
+public 或private的类成员
+c
+47
+下面对友员的错误描述是。
+关键字friend 用于声明友 员
+一个类中的成员函数可以
+是另一个类的友员
+友员函数访问对象的成员
+不受访问特性影响
+友员函数通过this 指针访 问对象成员
+d
+48
+不能用友员函数重载的是。
+=
+==
++=
+!=
+a
+49
+当一个派生类私有继承一个基类时,基类中的所有
+公有成员和保护成员成为派生类的。
+public 成员
+private 成员
+protected 成员
+友员
+b
+50
+当一个派生类保护继承一个基类时,基类中的所有
+公有成员和保护成员成为派生类的。
+public 成员
+private 成员
+protected 成员
+友员
+c
+51
+函数参数的默认值不允许为。
+全局常量
+全局变量
+局部变量
+函数调用
+c
+52
+关于成员函数特征的描述中,错误的是:
+成员函数一定是内联函数
+成员函数可以重载
+成员函数可以设置参数的
+默认值
+成员函数可以是静态的
+a
+53
+以下关于this指针的叙述中正确的是:
+任何与类相关的函数都有 this 指针;
+类的成员函数都有this 指 针;
+类的友员函数都有this 指 针;
+类的非静态成员函数才有 this 指针
+d
+54
+假设已经分配了一大块内存,char*pMem 指向起始 地址,要在这块内存上构造类型为DCClass的对 象,分配第10对象时应该怎么写
+、 pDCClass=new(pMem+9*siz eof(DCClassDCClass(;
+pDCClass= pMem+9*sizeof(DCClass ; pDCClass=DCClass(;
+pDCClass=new DCClass(pMem+9*sizeof(D CClass(;
+pDCClass=new DCClass((pMem+9*sizeof( DCClass
+a
+￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼
+￼￼55
+以下关于typedef的错误是
+用typedef 可以增加新类型
+typedef 只是将已存在的类 型用一个新的名字代表
+用typedef 可以为各种类型 说明一个新名,但不能用 来为变量说明一个新名
+用typedef 为类型说明一个 新名,通常可以增加程序 的可读性
+a
+56
+对使用关键字new所开辟的动态存储空间,释放时 必须使用
+free
+B reate
+delete
+realse
+c
+57
+对A*p用newA或(A*malloc(sizeof(A 赋值,如下叙 述正确的是(
+malloc 分配内存后会调用 构造函数初始化,但new 函 数不会。
+new 分配内存后会调用构造 函数初始化,但malloB 函 数不会。
+new 和malloc分配内存后都 会调用构造函数初始化。
+new 和malloc分配内存后都 不会调用构造函数初始化
+b
+58
+以下只有在使用时才为该类型变量分配内存的存储
+类说明是
+auto 和static
+auto 和register
+register 和static
+extern 和register
+b
+59
+在一个C源程序文件中,若要定义一个只允许本源 文件中所有函数使用的全局变量,则该变量需要使 用的存储类别是。
+auto
+register
+extern
+static
+d
+60
+如果在一个函数中的复合语句中定义了一个变量,
+则以下说法正确的是。
+在本函数范围内有效
+在本程序范围内有效
+只在复合语句中有效
+非法变量
+c
+61
+关于const_cast 类型转换说法不正确的是
+.用于修改类型的const 属 性,但不能修改volatile 属性
+用于常量指针被转化成非
+常量指针,并且仍然指向
+原来的对象;
+用于常量引用被转换成非
+常量引用,并且仍然指向
+原来的对象;
+用于常量对象被转换成非
+常量对象。
+a
+62
+关于static_cast 类型转换的说法不正确的是
+.用于类层次结构中基类和 子类之间指针或引用的转 换,进行上行转换(把子 类的指针或引用转换成基 类表示是安全的;
+用于类层次结构中基类和
+子类之间指针或引用的转
+换,进行下行转换(把基
+类指针或引用转换成子类
+表示是安全的;
+用于基本数据类型之间的 转换,如把int 转换成 char ,把int转换成enum, 这种转换的安全性也要开 发人员来保证;
+把任何类型的表达式转换 成void 类型。
+b
+63
+下面哪个语法是错误的
+.template<classT>classW idget;
+template<typename T> B lass Widget;
+template<class C> void f(const C& container,class C::iterator iter;
+template<typename C> void f(const C& container,typename C::iterator iter;
+c
+64
+下列关于友元的说法,不正确的是
+友元声明以关键字friend 开始,只能出现在类声明 中;
+友元是授权类的成员,它 受其所在类的声明区域 publiB private 和 proteB ted 的影响;
+友元声明的最常见用法
+是:允许非成员的重载操
+作符访问一个视其为朋友
+的类的私有成员;
+只有当一个类的定义已经 被看到时 它的成员函数才 能被声明为另一个类的友 元。
+b
+65
+关于函数模板的说法错误的是:
+函数模板提供了一类函数
+的抽象,它提供了任意类
+型为参数集返回值;
+函数模板经实例化后生成
+的具体函数为模板函数;
+函数模板代表一类函数,
+模板函数表示某个具体函
+数
+函数模板的实例化(模板
+函数需要程序员显示指定
+。(正确说法是:由编译
+程序在处理函数调用时自
+动完成。
+d
+66
+Volatile 的描述不正确的是
+Volatile 告诉编译器每次 必须重新读取变量的值, 而不是使用寄存器中的备 份
+用于修饰一个中断服务子 程序中会访问到的非自动 变量(Non -automatiB variables
+用于修饰多线程应用中被
+几个任务共享的变量
+一个指针不可以用 volatile 修饰
+d
+67
+比较常用的预处理变量有
+-n
+-c
+-DEBUG
+-t
+c
+68
+Cout<<err:<<__LINE__<<endl; 对上面输出描述正 确的是
+输出当前行号
+输出当前列数
+输出文件所有行数
+输出文件所有列数
+a
+69
+#definePI3.1415925 以下描述正确的是
+3.14159265  是一个数值
+PI是一个变量
+3.14159265 是一个字符 串
+编译时会检查PI 的类型
+a
+70
+一个正在运行中的进程如何进行调试,以下描述正 确的是
+dbx -iProcessID
+dbx -o ProB essID
+dbx -t ProcessID
+dbx –a ProcessID
+d
+71
+以下对vs2005工具调试描述正确的是
+Vs2005 调试的工具菜单 为:调试(S
+Vs2005 调试的工具菜单 为:调试(T
+Vs2005 调试的工具菜单 为:调试(D
+Vs2005 调试的工具菜单 为:调试(E
+c
+￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼
+￼￼72
+下列对在vs2005工程中设置断点说法正确的是
+在工程源码文件所在的当
+前行号左边单击即可设置
+断点。
+按F7快速启动调试
+按CTRl+F5 快速启动调试
+按CTRI+F1 可以单步调试。
+a
+73
+以下对条件编译命令描述正确的是
+#line 是条件编译命令
+#pragma 是条件编译命令
+#if 、#else,#elif及 #endif 是条件编译命令
+#push 是条件编译命令
+c
+74
+以下说法错误的是
+#line1000 将当前行号设置 为1000
+#pragma hdrstop表示需要 预编译所有的头文件
+#的功能是将其后面的宏参 数进行字符串化操作
+##被称为连接符 (concatenator ,用来将 两个Token 连接为一个 Token
+b
+75
+查找字符串中最后出现的指定字符的函数
+strrchr
+strB hr
+strstr
+strspn
+a
+76
+获取环境变量内容的函数有
+getenv
+putenv
+setenv
+unsetenv
+a
+77
+同一进程下的线程可以共享以下 线程都有独立 的寄存器、栈空间、线程ID
+.stack
+data seB tion
+register set
+thread ID
+b
+78
+systemv创建一段共享内存的函数
+.intshmget(key_tkey,int size,intflags;
+B har *shmat(int shmid, B har *shmaddr,int flags
+int shmdt(char *shmadr;
+int shmctl(key_t key;
+a
+79
+进程P不断从外部设备输入数据后通过缓冲区K向进 程Q成批传递,进程Q接收到数据并做进一步处理后 通过缓冲区T向进程S成批传送,进程R接到数据后 将他们打印出来,K和T大小一样。要求打印数据的 次序和进程P接收数据的次序一样。为了在保证结 果正确性的前提下尽可能并行工作,需要设置
+两个信号量,初始值为0,1
+3个信号量,初始值为 1,1,0
+4个信号量,初始值为 1,0,1,0
+5个信号量,1,0,1,1,0
+c
+80
+关于消息队列、信号灯、共享内存描述正确的是
+mq_open/sem_open/shm_op en是SystemV 创建消息队列 /信号灯/共享内存的函数 。
+消息队列可用于不同线程
+及进程通讯使用,对消息
+队列的操作不需要锁操作
+。
+++x;
+shmdt 断接这个内存区,但 并不删除指定的共享内存 区域。
+d
+81
+对多个元素的插入和删除操作需要使用事务定义, 应该使用哪种容器?
+vector
+queue
+map
+list
+d
+82
+判断容器中元素个数是否为0,为提高效率,应该 优先使用什么方法判断?
+empty(
+max_size(
+size(
+swap(
+a
+83
+需要在任意位置插入一个元素,哪种容器可以做
+到?
+vector
+set
+map
+序列容器都可以
+d
+84
+在32位系统,C++类型short,int,long,double 分 别是多少位?
+1,4,8 ,8
+2, 4, 8, 8
+2, 4, 4, 8
+4, 4, 4, 4
+c
+85
+在32位系统,结构体 structA{inta;charb;shortc;} 和结构体 structB{charb;inta;shortc;} 的sizeof结果分别 是?
+8,12
+7, 7
+12, 8
+12, 12
+a
+86
+在32位系统,类classA{}; 类classB{inta;}; 类 classC{intset({return1;};staticintfoo({retu rn2;}};的sizeof 分别是?
+1,8,8
+0, 8, 0
+1, 4, 1
+1, 4, 8
+c
+87
+关于堆、栈以下说法正确的是?
+栈资源由程序员手工控制
+。
+堆是一块连续的内存区域
+。
+对于堆,它是一个先进后
+出的队列,进出一一对
+应,不会产生碎片。
+堆向上,向高地址方向增
+长;栈向下,向低地址方
+向增长。
+d
+88
+关于回调函数,如下说法错误的是______:
+简而言之,回调函数就是
+一个通过函数指针调用的
+函数
+简而言之,回调函数就是
+被调用者回头调用调用者
+的函数
+使用回调函数实际上就是
+在调用某个函数时,将自
+己的一个函数(这个函数
+为回调函数的地址作为参
+数传递给那个被调用函数
+回调函数实际上就是递归
+函数
+d
+￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼
+￼￼89
+关于内联函数,如下那个说法是不妥的______
+如果函数体内的代码比较
+长,或者函数体内出现循
+环,最好不要使用内联
+内联只是对编译器的建
+议,编译器有权利忽略这
+个建议
+适当使用内联函数可以提
+高效率
+在编程的过程中应该尽可
+能多的使用内联函数
+d
+90
+关于如下代码,哪个说法是错误的______
+类CTest1 可以通过编译
+函数CTest1::test( 可以通 过编译
+函数test 不可以通过编 译,因为编译器不允许将 全局函数定义为内联的
+函数test 可以通过编译
+c
+91
+在SQL语言中,子查询是
+返回单表中数据子集的查
+询语言
+选取多表中字段子集的查
+询语句
+选取单表中字段子集的查
+询语句
+嵌入到另一个查询语句之 中的查询语句?
+d
+92
+下列聚合函数中不忽略空值(null的是
+SUN (列名
+MAX (列名
+AVG (列名
+COUNT (*
+d
+93
+如果输入参数少于三个,则在程序的第6行产生一 个断点
+breakifargc<36
+break 6 if ‘argB < 3’
+break 6 if “argc < 3”
+break 6 if argc < 3
+d
+94
+如何查看捕获点
+infocatch
+info watB h
+info break
+info status
+c
+95
+在使用GDB调试时,执行“printi=X+Y ”和 “macroexpi=X+Y ”的值分别是什么:
+$1=10$2=10
+$1 = 10expands to: i = 4+6
+expands to: i = 4 + 6 $1 = 10
+expands to: i = 4 + 6 expands to: j = 4 + 6
+b
+96
+关于使用GDB调试core文件,下述说法错误的有:
+使用
+“gdb –c[execfile][core file] ”或 “gdb[execfile][corefil e]”, 进去后输入where回 车,就可以显示程序在哪一 行断掉的,在哪个函数中
+通过“ulimit –a”查看B ore 文件大小限制
+通过“ulimit -c unlimited ”取消core文件 大小限制
+core dump又叫核心转储, 当程序运行过程中发生异 常, 程序异常退出时, 由 操作系统把程序当前的内 存状况存储在一个core 文 件中, 叫core dump
+a
+97
+下列说法正确的是
+当已经运行dbx 时,可以使 用debug 命令来调试核心文 件:
+debug –ccoreprogram_nam e
+可使用dbxenv 命令列出或 设置dbx 自定义变量
+print 命令会打印标识符、 结构、类型和C++ 类的声明 或定义,或表达式类型。
+stepi 可以用于指令级调试
+d
+98
+常见的插入排序算法不包括
+直接插入排序
+折半插入排序
+希尔排序
+归并排序
+d
+99
+堆排序的时间复杂度为
+O(n*logn
+O(logn
+O(n2
+O(n*logn+1
+a
+100
+快速排序的时间复杂度为
+O(n*logn
+O(logn
+O(n2
+O(n*logn+1
+a
+101
+在下列重构代码中使用的是哪种重构方法
+RemoveParameter
+Preserve Whole Objec t
+Introduce Parameter Object
+Replace Parameter with Explicit Methods
+b
+102
+ENAME在表中的定义为enamevarchar2(10 ,在PROC 中的宿主变量可定义为
+charszEname[9]
+B har szEname[10]
+char szEname[11]
+char szEname[12]
+c
+103
+在sql语句中引用的宿主变量对应的数据库字段取 值为空,执行该sql语句所报的错误为
+sqlcode= - 1405,sqlerr=ORA -01405
+sqlB ode=-1401, sqlerr=ORA -01401
+sqlcode= -1480, sqlerr=ORA -01480
+sqlcode= -1403, sqlerr=ORA -01403
+a
+104
+在TimesTen 中,下面关于subdaemon描述正确的 是?
+检测数据的死锁
+做事务执行失败时的回滚
+操作
+记录事务日志到事务日志
+文件
+有连接到来时接收daemon 的分配并在data store上 操作
+d
+105
+TimesTen 中每个DataStore的事务日志文件有几个
+1个
+2个
+3个
+4个
+b
+106
+TimesTen 内存数据库为什么快?
+一半单数据放在共享内
+存,一半数据放在程序堆
+内存中
+所有数据放到程序堆内存
+中
+所有数据放到共享内存中
+一半单数据放在共享内
+存,一半数据放在磁盘中
+c
+107
+下面列出的数据库,不是内存数据库的是:
+AAltibase
+TimesTen
+MariaDDB
+eXtremeDB
+c
+108
+Checkpoint 的描述不正确的是:
+有助于提高timesten 日志 的存储速度
+是内存数据库能够快速的
+恢复
+是oracle 到Timesten的同 步可增量进行
+确保同步数据的一致性
+a
+109
+对cache group刷新描述错误的是:
+使用Loadcachegroup 和 Refreshcachegroup 时不能 包含条件语句。
+当进行load cache group 或者 refresh cache group 时,必须是停止 autorefresh 状态。
+在查询自读cache group对 应的表时,可使用load cache group 状态,而对 应用无影响。
+Truncate table 不能被自 动刷新到timesten 中。
+c
+￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼
+￼￼110
+1下列命令使用错误的是:
+ttSize - tbltb_prd_prd_inst - rows1000000"uniocs";
+ttSchema "DSN=ocs" ocs_crt_tbl.sql
+可以使用ttstatus 查看各 个进行连接TimesTem 的情 况。
+ttxactadmin - xactIdRollback -xact 786633 ocs_dx
+b
+111
+2下列命令使用错误的是:
+ttSize - tbltb_prd_prd_inst - rows1000000"uniocs";
+可以使用ttstatus 查看各 个进行连接TimesTem 的情 况。
+ttSchema "DSN=ocs" ocs_crt_tbl.sql
+ttxactadmin - xactIdRollback -xact 786633 ocs_dx
+c
+112
+下面对TimesTen 的双机备份描述错误的是:
+Replication 可分为三种复 制方式,单向复制,双向 复制,active ->standby.
+复制的单位可以是一张 表,几张有主外键的表, 或是整个data store
+同步是通过replication agent ,根据日志信息, 进行相互同步的。
+Replication 的同步,不可 以配置两个数据库之间的 cacahe group,进行相互 同步。
+d
+113
+要调用tuxedo的服务端,需要配置的环境变量为
+WSNADDR
+WSMADDR
+WSNADOR
+WSMBDDR
+a
+114
+配置完成tuxedo服务端环境的ubbconfig 文件后, 需要用什么命令加载成二进制的tuxconfig ,正确 的是
+tmloadcf –y
+tmloadB f –y ubbB onfig
+tmload -y ubbconfig
+tmloadcf ubbconfig
+c
+115
+下面对客户端调用服务端返回的flag标识 TPNOBLOCK 描述正确的是
+只在发送请求时起作用
+如果在接收服务端返回结
+果时有阻塞条件存在,客
+户端不等待直接返回
+如果客户端有阻塞条件存
+在,客户端会一直阻塞在
+那里,即使超时也不返回
+客户端无法阻塞
+a
+116
+服务端程序编译使用命令是
+Buildclient
+Buildserver
+Buildservice
+buildserer
+b
+117
+下面说法正确的是
+在一个Tuxedo 应用系统中 可以有多个GMADM 、 GWTDOMAIN 对
+在一个Tuxedo 应用系统中 只能有1个GMADM 、 GWTDOMAIN 对
+在一个Tuxedo 应用系统中 只能有2个GMADM 、 GWTDOMAIN 对
+在一个Tuxedo 应用系统中 只能有3个GMADM 、 GWTDOMAIN 对
+a
+118
+下列在ALTIBASE 中关于执行计划错误的是
+alter session set explain plan=ONLY
+alter session set explain plan = ON
+alter session set explain plan = OFF
+alter session set explain plan = ALL
+d
+119
+AB中怎么用sysdba 用户查看所有的系统表
+Select*fromtab;
+Select * from v$tab;
+Select * from $tab;
+Select * from user_tab;
+a
+120
+下列对于ALTIBASE 备份的注意事项错误的为
+Onlinebackup 与 checkpoint 不能同时执行.
+有复制关系时,也被一起
+备份
+数据文件的增加/删除/变 更等表空间的信息发生变 化时,日志控制文件也发 生变化,所以务必之前全 备份.
+iload 为物理备份.
+d
+121
+snmp协议使用的公开端口为
+tcp 端口20和21
+udp 端口20和21
+tcp 端口161和162
+udp 端口161和162
+d
+122
+SNMPv1的安全机制是
+验证用户名
+验证IP地址
+验证协议
+验证团体名
+d
+123
+SNMP协议支持的服务原语中,提供扫描MIB树和连 续检索数据方法的是
+Get
+Set
+GetNext
+TrAp
+c
+124
+SNMP的对象是用________ 方法定义的,这种定义 说明管理对象的类型、组成;值的范围以及与其他 对象的关系。
+具体化
+抽象化
+形式化
+具体语言
+c
+125
+代理的应答报文格式是
+GetRequest
+GetNextRequest
+SetRequest
+GetResponsePDU
+d
+126
+SNMP网络管理中,一个代理可以由_____________ 管理站管理。
+0个
+1个
+2个
+多个
+d
+127
+SNMPv2增加的管理站之间的机制是 ______________ 网络管理所需要的功能特征。
+集中式
+分散式
+分布式
+独立式
+c
+128
+以下关于SNMPv1和SNMPv2 的安全性问题说法正确 的是:
+SNMPv1 不能阻止未授权方 伪装管理器执行Get 和Set 操作
+SNMP v1能提供有效的方法 阻止第三者观察管理器和 代理程序之间的消息交换
+SNMP v2解决不了篡改消息 内容的安全性问题
+SNMP v2解决不了伪装的安 全性问题
+a
+129
+SNMP管理器要实现对SNMP 代理的管理,必须满足 的条件是______
+SNMP 管理器和SNMP代理位 于同一个工作组
+SNMP 管理器和SNMP代理佣 有相同的团体名
+SNMP 管理器和SNMP代理位 于同一个域
+SNMP 管理器和SNMP代理位 于同一个子网
+b
+130
+C语言的内存分配和释放的关键字为:
+malloc/delete
+new/free
+malloc/free
+malloc/realloc
+c
+￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼
+￼￼131
+以下内存或者结构初始化处理错误的是:
+char buf[1024]={0};
+char buf[1024]; buf[0] = 0;
+char*ptr = new char[1024]; memset(ptr, 0, 1024;
+char* ptr = new char[1024]; ptr = NULL;
+d
+132
+以下内存分配操作错误的是
+char* ptr=(char*malloc(100;
+char* ptr = new char[100];
+char* ptr = NULL;{char buf[1024]; ptr = buf}; ......;ptr[5]=a;
+char* ptr = NULL;char buf[1024]; ptr = buf; ......; ptr[5]=a;
+c
+133
+以下操作完成后,存在越界的是:
+char buf[8]={0};strcpy(buf, “012345678 ”;
+char buf[8] = {0}; strncpy(buf, “012345678 ”,7;
+char buf[8] = {0}; memcpy(buf, “012345678 ”,7;
+char buf[8] = {0}; memset(buf, 0,8;
+a
+134
+DCC协议的基础协议是_______ 。
+radius
+OCP
+diameter
+TCP/IP
+c
+135
+DCC消息头的长度为_______ 。
+12
+16
+20
+24
+c
+136
+DCC消息头的长度为_______ 的倍数。
+2
+4
+6
+16
+b
+137
+DCC服务端监控的端口号是_______ 。
+80
+8080
+3868
+6060
+c
+138
+DCC消息中用来建立连接的请求消息是_______ 。
+DWR
+DPR
+CER
+CCR
+c
+139
+DCC消息中用来建立连接的应答消息是_______ 。
+DWA
+DPA
+CEA
+CCA
+b
+140
+DCC消息中用来监控连接的请求消息是_______ 。
+DWR
+DPR
+CER
+CCR
+a
+141
+DCC消息中用来监控连接的应答消息是_______ 。
+DWA
+DPA
+CEA
+CCA
+a
+142
+DCC消息中用来断开连接的请求消息是_______ 。
+DWR
+DPR
+CER
+CCR
+b
+143
+DCC消息中用来断开连接的应答消息是______ 。
+DWA
+DPA
+CEA
+CCA
+b
+144
+以下请求消息中,_______不是DCC 消息。
+DWR
+DPR
+CER
+CCR
+d
+145
+以下应答消息中,_______不是DCC 消息。
+DWA
+DPA
+CEA
+CCA
+d
+146
+DCC消息体由_______ 组成。
+TLV
+AVP
+DATA
+STRUCT
+b
+147
+以下属性值对,_______为DCC 消息必选。
+Acct-Application-Id
+Origin -Host
+Session -Id
+Auth -Request-Type
+b
+148
+以下属性值对中,_______用来区分OCS 业务
+Subscription -Id
+ServiB e-Context-Id
+CC-Request-Type
+Used -Service-Unit
+b
+149
+以下属性值对中,_______用来表示OCS 会话状态
+Subscription -Id
+ServiB e-Context-Id
+CC-Request-Type
+Used -Service-Unit
+c
+150
+以下属性值对中,_______用来表示OCS 会话中的 计费号码
+Subscription -Id
+ServiB e-Context-Id
+CC-Request-Type
+Used -Service-Unit
+a
+151
+以下属性值对中,_______用来表示OCS 会话中的 当前使用量
+Subscription -Id
+ServiB e-Context-Id
+CC-Request-Type
+Used -Service-Unit
+d
+152
+以下属性值对中,_______用来表示OCS 会话中的 当前消息的时间戳
+Event -Timestamp
+AoC -Information
+Service -Information
+Termination -Cause
+a
+153
+以下属性值对中,_______用来表示OCS 会话中的 会话提醒
+Event -Timestamp
+AoC -Information
+Service -Information
+Termination -Cause
+b
+154
+以下方法不属于连接池(POOL类的是_______ 。
+Init
+Destroy
+GetConnection
+Prepare
+d
+155
+以下方法不属于连接类(connection 类的是。
+Connect
+Reset
+Execute
+Commit
+c
+156
+以下方法不属于SQL类的是_______ 。
+Commit
+Query
+Execute
+Prepare
+a
+157
+以下数据库语言中,数据库组件不支持的是___。
+DDL
+DQL
+DML
+Proc
+a
+158
+SGIP消息头的长度为_______ 。
+12
+16
+20
+24
+c
+159
+以下元素中,_______不属于SGIP 消息。
+版本号
+消息类型
+消息长度
+校验符
+c
+160
+以下属于SGIP消息的字段类型是_______ 。
+string
+long long
+int
+short int
+b
+161
+SGIP消息中用来建立连接的请求消息是_______ 。
+AUTH_ACC
+BIND_RECEIVER
+UNBIND
+ENQUIRE_LINK
+c
+162
+SGIP消息中用来建立连接的应答消息是_______ 。
+AUTH_ACC_RESP
+BIND_RECEIVER_RESP
+UNBIND_RESP
+ENQUIRE_LINK_RESP
+c
+163
+SGIP消息中用来监控连接的请求消息是_______ 。
+AUTH_ACC
+BIND_RECEIVER
+UNBIND
+ENQUIRE_LINK
+b
+164
+SGIP消息中用来监控连接的应答消息是_____ 。
+AUTH_ACC_RESP
+BIND_RECEIVER_RESP
+UNBIND_RESP
+ENQUIRE_LINK_RESP
+a
+165
+SGIP消息中用来断开连接的请求消息是_______ 。
+AUTH_ACC
+BIND_RECEIVER
+UNBIND
+ENQUIRE_LINK
+a
+166
+SGIP消息中用来断开连接的应答消息是_______ 。
+AUTH_ACC_RESP
+BIND_RECEIVER_RESP
+UNBIND_RESP
+ENQUIRE_LINK_RESP
+b
+167
+SGIP消息中用来扣费的请求消息是_______ 。
+AUTH_ACC
+BIND_RECEIVER
+UNBIND
+ENQUIRE_LINK
+b
+168
+SGIP消息中用来扣费的应答消息是_______ 。
+AUTH_ACC_RESP
+BIND_RECEIVER_RESP
+UNBIND_RESP
+ENQUIRE_LINK_RESP
+d
+169
+以下请求消息中,_______不是SGIP 消息。
+AUTH_ACC
+SM_RESULT_NOTIFY
+USER_CHANGE_NOTI
+SUBMIT_ACC
+d
+￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼
+￼￼170
+以下应答消息中,_______不是SGIP 消息。
+AUTH_ACC_RESP
+SM_RESULT_NOTIFY_RESP
+USER_CHANGE_NOTI_RESP
+SUBMIT_ACC_RESP
+b
+171
+以字段中,_______属于消息AUTH_ACC 。
+SMSC_Address
+Operation_Result
+Notify_Mode
+Session_Id
+b
+172
+SMPP消息头的长度为_______ 。
+12
+16
+0
+4
+c
+173
+以下元素中,_______不属于SMPP 消息。
+版本号
+消息类型
+消息长度
+校验符
+c
+174
+以下属于SMPP消息的字段类型是_______ 。
+string
+long long
+int
+short int
+b
+175
+SMPP消息中用来建立连接的请求消息是______ 。
+AUTH_ACC
+BIND_RECEIVER
+UNBIND
+ENQUIRE_LINK
+c
+176
+SMPP消息中用来建立连接的应答消息是______ 。
+AUTH_ACC_RESP
+BIND_RECEIVER_RESP
+UNBIND_RESP
+ENQUIRE_LINK_RESP
+c
+177
+SMPP消息中用来监控连接的请求消息是______ 。
+AUTH_ACC
+BIND_RECEIVER
+UNBIND
+ENQUIRE_LINK
+b
+178
+SMPP消息中用来监控连接的应答消息是______ 。
+AUTH_ACC_RESP
+BIND_RECEIVER_RESP
+UNBIND_RESP
+ENQUIRE_LINK_RESP
+a
+179
+SMPP消息中用来断开连接的请求消息是______ 。
+AUTH_ACC
+BIND_RECEIVER
+UNBIND
+ENQUIRE_LINK
+a
+180
+SMPP消息中用来断开连接的应答消息是______ 。
+AUTH_ACC_RESP
+BIND_RECEIVER_RESP
+UNBIND_RESP
+ENQUIRE_LINK_RESP
+b
+181
+SMPP消息中用来扣费的请求消息是_______ 。
+AUTH_ACC
+BIND_RECEIVER
+UNBIND
+ENQUIRE_LINK
+b
+182
+SMPP消息中用来扣费的应答消息是_______ 。
+AUTH_ACC_RESP
+BIND_RECEIVER_RESP
+UNBIND_RESP
+ENQUIRE_LINK_RESP
+d
+183
+以下请求消息中,_______不是SMPP 消息。
+AUTH_ACC
+SM_RESULT_NOTIFY
+USER_CHANGE_NOTI
+SUBMIT_ACC
+d
+184
+以下应答消息中,_______不是SMPP 消息。
+AUTH_ACC_RESP
+SM_RESULT_NOTIFY_RESP
+USER_CHANGE_NOTI_RESP
+SUBMIT_ACC_RESP
+b
+185
+TCP/IP协议中下面那个是传输可靠的?
+TCP
+服务端回复ACK
+UDP
+ICMP
+a
+186
+TCP的数据传输模式是?
+半双工
+全双工
+单双工
+混合双工
+b
+187
+TCP在发送数据时,下面正确的描述是?
+直接将数据发送给对端
+先将数据发送到发送缓冲
+区
+先将数据写到磁盘文件
+等待发送完成才退出
+b
+188
+ping命令使用了下面那个协议?
+TCP
+UDP
+IP
+ICMP
+d
+189
+TCP在建立连接时,客户端或服务端在什么会进入 ESTABLISHED 状态?
+收到对端发送过来的SYN 时
+收到对端发送过来的ACK 时
+启动时
+两端连接都建立成功时
+b
+190
+TCP是怎样建立连接的?
+使用一次握手协议
+使用二次握手协议
+使用三次握手协议
+使用四次挥手协议
+c
+191
+为什么TCP的连接建立只使用3次交互,而连接的断 开要4次交互?
+断开时要发送的数据更多
+为了保证被动关闭端的数
+据能正确接收
+为了保证主动关闭端的数
+据能正确发送
+为了性能的考虑
+b
+192
+下面关于同步概念描述正确的是?
+调用时,立即返回再轮循结 果
+调用时,在没有得到结果之 前,该调用就不返回
+调用时,操作系统内核阻塞
+调用时,需要先调用互斥
+函数
+b
+193
+下面关于异步概念描述正确的是?
+在线程中调用函数
+调用的函数中包含操作系
+统内核函数
+调用发出后,调用者不能
+立刻得到结果,完成后,
+通过状态、通知和回调来
+通知调用者
+调用时,需要先调用互斥
+函数
+c
+194
+下面关于阻塞概念描述正确的是?
+调用后,整个系统阻塞了
+调用后线程被阻塞了
+调用结果返回之前,当前
+线程会被挂起
+调用时,需要先调用互斥
+函数
+c
+195
+socket编程中,要使send 函数调用是非阻塞的, 要怎么做?
+调用ioctl 函数设置 FIOSNBIO 标志
+调用ioctl 函数设置 FIOSNBIO 标志并且调用 fcntl 函数设置O_NONBLOCK 和O_NDELAY 标志
+send 本来就是非阻塞的, 不用做任何操作
+调用fcntl 函数设置 O_NONBLOCK 标志
+b
+196
+socket编程中,要使recv 函数调用是非阻塞的, 要怎么做?
+调用ioctl 函数设置 FIOSNBIO 标志
+调用ioctl 函数设置 FIOSNBIO 标志并且调用 fcntl 函数设置O_NONBLOCK 和O_NDELAY 标志
+recv 本来就是非阻塞的, 不用做任何操作
+调用fcntl 函数设置 O_NONBLOCK 标志
+b
+197
+TCP_NODELAY 的作用是什么?
+以一个字节一个消息包发
+送到对端
+send 函数调用完成后立即 将消息发送到端
+发送消息长度达到指定值
+时才发送
+数据直接发送到对端
+b
+198
+SO_REUSEADDR 的作用是什么?
+可启动多个相同的监听端
+口
+可启动两个相同的监听端
+口
+重用正在TIME_WAIT 状态的 socket 连接
+socket 连接在关闭时不经 历TIME_WAIT 状态
+c
+199
+SO_DONTLINGER 的作用是什么?
+可以重用已打开的socket 连接
+数据发送不会延迟
+socket 连接强制关闭,不 经历CLOSE_WAIT 状态
+socket 连接强制关闭,不 经历TIME_WAIT 状态
+d
+200
+在非阻塞模式下,在UNIX平台下发送缓冲满了后, 调用send函数将发生?
+阻塞等待数据写到发送缓
+冲区后再返回
+返回值为-1,errno 值为 EAGAIN
+程序直接core dump
+返回值为0
+b
+￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼
+￼￼201
+recv函数在什么情况下会阻塞?
+阻塞直到接收到指定大小
+的数据
+接收缓冲区空时,阻塞等
+待系统接收网络数据
+接收缓冲区满了的时候会
+阻塞
+不从接收缓冲区获取数据
+的时候会阻塞
+b
+202
+send函数是怎么样发送数据的?
+直接将数据发送到网络
+调用底层发送接口发送数
+据
+将要发送的数据放到发送
+缓冲区,由系统底层发送
+将要发送的数据放到共享
+内存中,同系统底层发送
+c
+203
+开发socket服务端时,如何在指定端口号上监
+调用bind 函数
+调用accept 函数
+调用listen 函数
+调用socket 函数
+a
+204
+听开?发socket服务端时,调用那个函数将启动监听 端口?
+调用bind 函数
+调用accept 函数
+调用listen 函数
+调用socket 函数
+c
+205
+socket的shutdown 函数的作用是什么?
+关闭socket 连接
+停止socket 服务器
+停止socket 客户端
+有条件的关闭socket 收发 端
+d
+206
+使用udp协议发送数据的函数是那个?
+send
+sendto
+socket
+accept
+b
+207
+TCP是怎样保证消息正确传输到对端的?
+单个字节发送
+使用滑动窗口
+传输时阻塞程序
+不断的重发
+b
+208
+在没有设置TCP_NODELAY 选项的情况下,TCP消息 包是如何发送的?
+直接发送数据到对端
+发送缓冲区数据包达到MTU 值时就发送
+接收到对端ACK 确认后立即 发送下一个包
+发送缓冲区有数据就立即
+发送
+b
+209
+当SO_SNDBUF( 发送缓冲区大小设置为0时,调用 send函数的效果是?
+直接发送数据到对端
+发送数据时阻塞程序
+将数据写到发送缓冲后立
+即返回
+数据达到MTU 值时才发送
+a
+210
+如下类,不属于ACE锁守护的的有______
+ACE_Read_Guard
+ACE_Write_Guard
+ACE_Recursive_Thread_Mu tex
+ACE_Guard
+c
+211
+关于gsoap描述不正确的为
+gSOAP 利用编译器技术提供 了一组透明化的SOAPAPI , 并将与开发无关的SOAP 实 现细节相关的内容对用户 隐藏起来.
+gSOAP 的编译器能够自动 的将用户定义的本地化的C 或C++ 数据类型转变为符合 XML 语法的数据结构.
+gSOAP 支持MIME (SwA 和 DIME 附件包.
+不可以生成单独运行的web 服务及客户端程序.
+d
+212
+Gsoap说明错误的为
+soap=soap_new( 定义并初 始化环境变量.
+soap_call_ns__method1(s oap, ... 调用远程函数.
+soap_end(soap 删除类实 例.
+free(soap 释放环境变 量空间.
+d
+213
+关于函数模板的说法错误的是
+函数模板提供了一类函数
+的抽象,它提供了任意类
+型为参数集返回值;
+函数模板经实例化后生成
+的具体函数为模板函数;
+函数模板代表一类函数,
+模板函数表示某个具体函
+数;
+函数模板的实例化(模板
+函数)需要程序员显示指
+定。
+d
+214
+要求运算数必须是整型或字符型的运算符有
+&&
+&
+!
+||
+b
+215
+已知有定义int a[5] ; a数组中最后一个元素的 地址可表示为
+&a+4
+a+5
+a+4
+&a[5]
+c
+216
+若已定义char s[10] ;则下面表达式中不表示 s[1]的地址的是
+s+1
+s++
+&s[0] +1
+&s[1]
+b
+217
+若有定义int x[ ]={8,7,6,5,4,3,2},*s; s=x+3;则表达式*(s+2) 的值为
+3
+4
+5
+6
+a
+218
+字符串“\\\”ABC\“\\ ”的长度是
+3
+5
+7
+9
+c
+219
+对于语句“int *p[5];”的描述( )是正确的
+p 是一个指向数组的指 针,所指向的数组是5个 int 型元素
+p 是一个指向某数组中第 5个元素的指针,该元素是 int 型变量
+p[5] 表示某个数组的第5 个元素
+p 是一个具有5个元素的指 针数组,每个元素是一个 int 型指针
+d
+220
+C语言中while 和do-while 循环的主要区别是
+do- while的循环体至少无 条件执行一次
+while 的循环控制条件比 do-while 的循环控制条件 严格
+do-while 允许从外部转到 循环体内
+do-while 的循环体不能是 复合语句
+a
+221
+在32位机子中,定义 double* (*a)[3][6]; sizeof(****a) 的值为多少
+4
+8
+24
+72
+b
+222
+假定AB为一个类,px为指向该类动态对象数组的指 针,该数组的长度为n,则执行"delete []px;"语 句时,自动调用该类的析构函数的次数为().
+0
+1
+n
+n+1
+c
+223
+关于抽象类下面说法正确的是().
+抽象类就是其中有函数定
+义但没有实现的类
+抽象类是可以被实例化的
+派生类不能成为抽象类
+抽象类的子类必须实现父
+类中的纯虚函数
+d
+￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼
+￼￼224
+假定AB为一个类,则执行“AB a(2),b[3],*p[4]; ”语句时调用该类构造函数的 次数为:
+3
+4
+5
+9
+b
+225
+The term operator overloading in C++ refres to:
+Inheritance
+Message passing
+Polymorphism
+None
+c
+226
+Which header file in C++ does contain function prototypes for memory allocation?
+<iostream.h>
+<stdio.h>
+<stdlib.h>
+<limits.h>
+c
+227
+下列字符串中,不可以用作C++标识符的是
+y_2006
+____TEST__H
+Retum
+switch
+d
+228
+字面常量42、4.2、42L 的数据类型分别是
+long、double int
+long 、float、int
+int 、double、long
+int 、char、long
+c
+￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼
