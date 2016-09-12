@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="itemBean" class="com.persen.beijing.spEl.Item">
+        <property name="name" value="itemA"/>
+        <property name="total" value="10"/>
+    </bean>
+
+    <bean id="customerBean" class="com.persen.beijing.spEl.Customer">
+        <property name="item" value="#{itemBean}"/>
+        <property name="itemName" value="#{itemBean.name}"/>
+    </bean>
+</beans>
