@@ -8,5 +8,5 @@ import com.persen.beijing.java.springmybatis.po.BilActBalanceAddUp;
 @Scope("prototype")
 @Component
 public interface BilActBalanceAddUpMapper {
-	public int insert(BilActBalanceAddUp value);
+    public int insert(BilActBalanceAddUp value);
 }

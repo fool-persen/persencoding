@@ -13,16 +13,16 @@ import com.persen.beijing.java.springmybatis.po.BilActBalanceAddUp;
 @Scope("prototype")
 @Component
 public class dbOps {
-	@Resource
-	private BilActAddUpMapper baauMapper;
-	@Resource
-	private BilActBalanceAddUpMapper babauMapper;
+    @Resource
+    private BilActAddUpMapper baauMapper;
+    @Resource
+    private BilActBalanceAddUpMapper babauMapper;
 
-	public void insert_bil(BilActAddUp value1) {
-		baauMapper.insert(value1);
-	}
+    public void insert_bil(BilActAddUp value1) {
+        baauMapper.insert(value1);
+    }
 
-	public void insert_balanceBil(BilActBalanceAddUp value2) {
-		babauMapper.insert(value2);
-	}
+    public void insert_balanceBil(BilActBalanceAddUp value2) {
+        babauMapper.insert(value2);
+    }
 }

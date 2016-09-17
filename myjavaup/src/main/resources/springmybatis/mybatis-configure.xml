@@ -1,21 +1,21 @@
-<?xml version="1.0" encoding="UTF-8" ?>   
-<!DOCTYPE configuration   
-    PUBLIC "-//mybatis.org//DTD Config 3.0//EN"   
-    "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-	<typeAliases>
-		<typeAlias type="com.persen.beijing.java.springmybatis.po.CodeActAcctItem"
-			alias="CodeActAcctItem" />
-		<typeAlias type="com.persen.beijing.java.springmybatis.po.BilActAddUp"
-			alias="BilActAddUp" />
-		<typeAlias type="com.persen.beijing.java.springmybatis.po.BilActBalanceAddUp"
-			alias="BilActBalanceAddUp" />
-	</typeAliases>
+    <typeAliases>
+        <typeAlias type="com.persen.beijing.java.springmybatis.po.CodeActAcctItem"
+                   alias="CodeActAcctItem"/>
+        <typeAlias type="com.persen.beijing.java.springmybatis.po.BilActAddUp"
+                   alias="BilActAddUp"/>
+        <typeAlias type="com.persen.beijing.java.springmybatis.po.BilActBalanceAddUp"
+                   alias="BilActBalanceAddUp"/>
+    </typeAliases>
 
-	<mappers>
-		<!--Mapper.xml装载进来 同等于把“dao”的实现装载进来 -->
-		<mapper resource="dataservice/CodeActAcctItemMapper.xml" />
-		<mapper resource="dataservice/BilActAddUpMapper.xml" />
-		<mapper resource="dataservice/BilActBalanceAddUpMapper.xml" />
-	</mappers>
+    <mappers>
+        <!--Mapper.xml装载进来 同等于把“dao”的实现装载进来 -->
+        <mapper resource="dataservice/CodeActAcctItemMapper.xml"/>
+        <mapper resource="dataservice/BilActAddUpMapper.xml"/>
+        <mapper resource="dataservice/BilActBalanceAddUpMapper.xml"/>
+    </mappers>
 </configuration> 

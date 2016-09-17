@@ -4,16 +4,19 @@ import com.persen.beijing.java.springmybatis.biz.Transaction;
 import com.persen.beijing.java.springmybatis.service.ItemService;
 
 public class ItemServiceImpl implements ItemService {
-	Transaction transaction;
-	public Transaction getTransaction() {
-		return transaction;
-	}
-	public void setTransaction(Transaction transaction) {
-		this.transaction = transaction;
-	}
-	public void deal() {
-		transaction.doItem();
-	}
+    Transaction transaction;
+
+    public Transaction getTransaction() {
+        return transaction;
+    }
+
+    public void setTransaction(Transaction transaction) {
+        this.transaction = transaction;
+    }
+
+    public void deal() {
+        transaction.doItem();
+    }
 //	
 //	public CodeActAcctItemMapper getItem() {
 //		return item;

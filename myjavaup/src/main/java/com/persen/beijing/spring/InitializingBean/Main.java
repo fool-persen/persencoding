@@ -5,10 +5,10 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Main {
 
-	public static void main(String[] args) {
-		ApplicationContext context = new ClassPathXmlApplicationContext(
-				"TestInitializingBean.xml");
-		System.out.println("----");
-	}
+    public static void main(String[] args) {
+        ApplicationContext context = new ClassPathXmlApplicationContext(
+                "TestInitializingBean.xml");
+        System.out.println("----");
+    }
 
 }

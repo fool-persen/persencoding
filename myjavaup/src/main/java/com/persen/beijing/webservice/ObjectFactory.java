@@ -8,18 +8,17 @@ import javax.xml.namespace.QName;
 
 
 /**
- * This object contains factory methods for each 
- * Java content interface and Java element interface 
- * generated in the com.persen.beijing.webservice package. 
- * <p>An ObjectFactory allows you to programatically 
- * construct new instances of the Java representation 
- * for XML content. The Java representation of XML 
- * content can consist of schema derived interfaces 
- * and classes representing the binding of schema 
- * type definitions, element declarations and model 
- * groups.  Factory methods for each of these are 
+ * This object contains factory methods for each
+ * Java content interface and Java element interface
+ * generated in the com.persen.beijing.webservice package.
+ * <p>An ObjectFactory allows you to programatically
+ * construct new instances of the Java representation
+ * for XML content. The Java representation of XML
+ * content can consist of schema derived interfaces
+ * and classes representing the binding of schema
+ * type definitions, element declarations and model
+ * groups.  Factory methods for each of these are
  * provided in this class.
- * 
  */
 @XmlRegistry
 public class ObjectFactory {
@@ -28,14 +27,12 @@ public class ObjectFactory {
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: com.persen.beijing.webservice
-     * 
      */
     public ObjectFactory() {
     }
 
     /**
      * Create an instance of {@link BssChargeByDealflag }
-     * 
      */
     public BssChargeByDealflag createBssChargeByDealflag() {
         return new BssChargeByDealflag();
@@ -43,7 +40,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link BssCoreChargeResponse }
-     * 
      */
     public BssCoreChargeResponse createBssCoreChargeResponse() {
         return new BssCoreChargeResponse();
@@ -51,7 +47,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link BssImprest }
-     * 
      */
     public BssImprest createBssImprest() {
         return new BssImprest();
@@ -59,7 +54,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link BssCoreCharge }
-     * 
      */
     public BssCoreCharge createBssCoreCharge() {
         return new BssCoreCharge();
@@ -67,7 +61,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link BssImprestResponse }
-     * 
      */
     public BssImprestResponse createBssImprestResponse() {
         return new BssImprestResponse();
@@ -75,7 +68,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link TutuAccountQuery }
-     * 
      */
     public TutuAccountQuery createTutuAccountQuery() {
         return new TutuAccountQuery();
@@ -83,7 +75,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link BssChangePasswdResponse }
-     * 
      */
     public BssChangePasswdResponse createBssChangePasswdResponse() {
         return new BssChangePasswdResponse();
@@ -91,7 +82,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link BssChargeResponse }
-     * 
      */
     public BssChargeResponse createBssChargeResponse() {
         return new BssChargeResponse();
@@ -99,7 +89,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link BssCoreChargeByDealflagResponse }
-     * 
      */
     public BssCoreChargeByDealflagResponse createBssCoreChargeByDealflagResponse() {
         return new BssCoreChargeByDealflagResponse();
@@ -107,7 +96,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link BssCharge }
-     * 
      */
     public BssCharge createBssCharge() {
         return new BssCharge();
@@ -115,7 +103,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link BssChargeByDealflagResponse }
-     * 
      */
     public BssChargeByDealflagResponse createBssChargeByDealflagResponse() {
         return new BssChargeByDealflagResponse();
@@ -123,7 +110,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link BssCoreChargeByDealflag }
-     * 
      */
     public BssCoreChargeByDealflag createBssCoreChargeByDealflag() {
         return new BssCoreChargeByDealflag();
@@ -131,7 +117,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link BssChangePasswd }
-     * 
      */
     public BssChangePasswd createBssChangePasswd() {
         return new BssChangePasswd();
@@ -139,7 +124,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link TutuAccountQueryResponse }
-     * 
      */
     public TutuAccountQueryResponse createTutuAccountQueryResponse() {
         return new TutuAccountQueryResponse();
@@ -147,7 +131,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link ServiceException }
-     * 
      */
     public ServiceException createServiceException() {
         return new ServiceException();
@@ -155,7 +138,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link ServiceException }{@code >}}
-     * 
      */
     @XmlElementDecl(namespace = "http://webservice.service.business.sncp.woniu.com", name = "ServiceException")
     public JAXBElement<ServiceException> createServiceException(ServiceException value) {

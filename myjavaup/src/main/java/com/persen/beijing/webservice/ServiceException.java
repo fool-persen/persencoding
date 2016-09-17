@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 /**
  * <p>Java class for ServiceException complex type.
- * 
+ * <p>
  * <p>The following schema fragment specifies the expected content contained within this class.
- * 
+ * <p>
  * <pre>
  * &lt;complexType name="ServiceException">
  *   &lt;complexContent>
@@ -22,12 +22,10 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "ServiceException", namespace = "http://exception.service.common.cm4j.com", propOrder = {
-    "errorCode"
+        "errorCode"
 })
 public class ServiceException {
 
@@ -35,11 +33,9 @@ public class ServiceException {
 
     /**
      * Gets the value of the errorCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Integer }
-     *     
+     *
+     * @return possible object is
+     * {@link Integer }
      */
     public Integer getErrorCode() {
         return errorCode;
@@ -47,11 +43,9 @@ public class ServiceException {
 
     /**
      * Sets the value of the errorCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Integer }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link Integer }
      */
     public void setErrorCode(Integer value) {
         this.errorCode = value;

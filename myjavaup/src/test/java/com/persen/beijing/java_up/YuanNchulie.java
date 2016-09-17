@@ -6,37 +6,37 @@
 package com.persen.beijing.java_up;
 
 class Biz {
-	public void doBAOSHU(int n, int m) {
-		int[] array = new int[n];
-		for(int i=0; i<n; i++) {
-			array[i] = 1;
-		}
-		boolean run = true;
-		int cnt = 0;
-		while(run) {
-			run = false;
-			for(int i=0; i<n; i++) {
-				if(array[i] == 1) {
-					cnt++;
-					if(cnt == m) {
-						System.out.println(i+1);
-						array[i] = 0;
-						cnt = 0;
-					}
-				}
-				if(array[i] == 1) {
-					run = run | true;
-				}
-			}
-		}
-	}
+    public void doBAOSHU(int n, int m) {
+        int[] array = new int[n];
+        for (int i = 0; i < n; i++) {
+            array[i] = 1;
+        }
+        boolean run = true;
+        int cnt = 0;
+        while (run) {
+            run = false;
+            for (int i = 0; i < n; i++) {
+                if (array[i] == 1) {
+                    cnt++;
+                    if (cnt == m) {
+                        System.out.println(i + 1);
+                        array[i] = 0;
+                        cnt = 0;
+                    }
+                }
+                if (array[i] == 1) {
+                    run = run | true;
+                }
+            }
+        }
+    }
 }
 
 public class YuanNchulie {
 
-	public static void main(String[] args) {
-		Biz biz = new Biz();
-		biz.doBAOSHU(10, 3);
-	}
+    public static void main(String[] args) {
+        Biz biz = new Biz();
+        biz.doBAOSHU(10, 3);
+    }
 
 }

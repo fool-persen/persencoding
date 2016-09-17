@@ -5,11 +5,11 @@ import java.beans.PropertyChangeListener;
 
 public class Main {
 
-	public static void main(String[] args) {
-		PropertyBean bean = new PropertyBean();
-		PropertyListener listener = new PropertyListener();
-		bean.addPropertyChangeListener("topic", listener);
-		/*
+    public static void main(String[] args) {
+        PropertyBean bean = new PropertyBean();
+        PropertyListener listener = new PropertyListener();
+        bean.addPropertyChangeListener("topic", listener);
+        /*
 		bean.addPropertyChangeListener("topic", new PropertyChangeListener() {
 
 			@Override
@@ -18,8 +18,8 @@ public class Main {
 			}
 		});
 		*/
-		//bean.removePropertyChangeListener("topic", listener);
-		bean.notify("topic");
-	}
+        //bean.removePropertyChangeListener("topic", listener);
+        bean.notify("topic");
+    }
 
 }

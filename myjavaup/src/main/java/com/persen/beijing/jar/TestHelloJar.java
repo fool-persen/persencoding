@@ -5,8 +5,8 @@ package com.persen.beijing.jar;
 
 public class TestHelloJar {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 //		HelloWord hello = new HelloWordImpl();
 //		hello.sayHello();
-	}
+    }
 }

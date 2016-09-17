@@ -12,11 +12,11 @@ import com.persen.beijing.java.springmybatis.po.BilActBalanceAddUp;
 @Scope("prototype")
 @Component
 public class DBTool {
-	@Resource
-	dbOps ops;
+    @Resource
+    dbOps ops;
 
-	public void addUp(BilActAddUp value1, BilActBalanceAddUp value2) {
-		ops.insert_bil(value1);
-		ops.insert_balanceBil(value2);
-	}
+    public void addUp(BilActAddUp value1, BilActBalanceAddUp value2) {
+        ops.insert_bil(value1);
+        ops.insert_balanceBil(value2);
+    }
 }

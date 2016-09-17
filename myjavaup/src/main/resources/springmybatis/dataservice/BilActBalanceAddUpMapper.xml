@@ -2,18 +2,18 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper
-	namespace="com.persen.beijing.java.springmybatis.dao.BilActBalanceAddUpMapper">
-	<insert id="insert" parameterType="BilActBalanceAddUp">
-		insert into
-		bil_act_balance_add_up_${partition_no}
-		(balance_id,balance_type_id,unit_type_id,acct_month,pay_id,user_id,acct_item_code,partition_no,deduct_fee,update_time)
-		values (#{balance_id, jdbcType=NUMERIC}, #{balance_type_id,
+        namespace="com.persen.beijing.java.springmybatis.dao.BilActBalanceAddUpMapper">
+    <insert id="insert" parameterType="BilActBalanceAddUp">
+        insert into
+        bil_act_balance_add_up_${partition_no}
+        (balance_id,balance_type_id,unit_type_id,acct_month,pay_id,user_id,acct_item_code,partition_no,deduct_fee,update_time)
+        values (#{balance_id, jdbcType=NUMERIC}, #{balance_type_id,
 		jdbcType=NUMERIC}, #{unit_type_id, jdbcType=NUMERIC}, #{acct_month,
 		jdbcType=NUMERIC}, #{pay_id, jdbcType=VARCHAR}, #{user_id,
 		jdbcType=VARCHAR}, #{acct_item_code, jdbcType=NUMERIC},
-		#{partition_no,
-		jdbcType=VARCHAR}, #{deduct_fee, jdbcType=NUMERIC},
-		#{update_time,
-		jdbcType=DATE})
-	</insert>
+        #{partition_no,
+        jdbcType=VARCHAR}, #{deduct_fee, jdbcType=NUMERIC},
+        #{update_time,
+        jdbcType=DATE})
+    </insert>
 </mapper>

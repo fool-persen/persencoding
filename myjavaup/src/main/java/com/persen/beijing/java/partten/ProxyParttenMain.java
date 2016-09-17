@@ -7,15 +7,15 @@ import com.persen.beijing.java.partten.service.proxy.Proxy;
 
 public class ProxyParttenMain {
 
-	public static void main(String[] args) {
-		IAnimal proxy = null;
-		Dog dog = new Dog();
-		Cat cat = new Cat();
-		 
-		proxy = new Proxy(dog);
-		proxy.cry();
-		proxy = new Proxy(cat);
-		proxy.cry();
-	}
+    public static void main(String[] args) {
+        IAnimal proxy = null;
+        Dog dog = new Dog();
+        Cat cat = new Cat();
+
+        proxy = new Proxy(dog);
+        proxy.cry();
+        proxy = new Proxy(cat);
+        proxy.cry();
+    }
 
 }

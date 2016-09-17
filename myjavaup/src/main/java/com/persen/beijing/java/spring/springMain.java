@@ -5,11 +5,11 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class springMain {
 
-	public static void main(String[] args) {
-		AbstractApplicationContext context = new ClassPathXmlApplicationContext(
-				"spring.xml");
-		System.out.println("---------");
-		UserDao ud = (UserDao) context.getBean("userDao");
-	}
+    public static void main(String[] args) {
+        AbstractApplicationContext context = new ClassPathXmlApplicationContext(
+                "spring.xml");
+        System.out.println("---------");
+        UserDao ud = (UserDao) context.getBean("userDao");
+    }
 
 }

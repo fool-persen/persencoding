@@ -8,23 +8,23 @@ import com.alibaba.rocketmq.common.message.Message;
 import com.alibaba.rocketmq.remoting.exception.RemotingException;
 
 public class Product {
-	DefaultMQProducer producer;
+    DefaultMQProducer producer;
 
-	public void init() throws MQClientException {
-		producer = new DefaultMQProducer("testProductGroup");
-		producer.setNamesrvAddr("123.57.29.165:9876;101.200.78.122:9876");
-		producer.setInstanceName("product");
-		//producer.setVipChannelEnabled(false);
-		producer.start();
-	}
+    public void init() throws MQClientException {
+        producer = new DefaultMQProducer("testProductGroup");
+        producer.setNamesrvAddr("123.57.29.165:9876;101.200.78.122:9876");
+        producer.setInstanceName("product");
+        //producer.setVipChannelEnabled(false);
+        producer.start();
+    }
 
-	public void publish(String ms) throws MQClientException, RemotingException,
-			MQBrokerException, InterruptedException {
-		Message msg = new Message("dccTest",// topic
-				"TagA",// tag
-				ms.getBytes()// body
-		);
-		SendResult sendResult = producer.send(msg);
-		System.out.println(sendResult);
-	}
+    public void publish(String ms) throws MQClientException, RemotingException,
+            MQBrokerException, InterruptedException {
+        Message msg = new Message("dccTest",// topic
+                "TagA",// tag
+                ms.getBytes()// body
+        );
+        SendResult sendResult = producer.send(msg);
+        System.out.println(sendResult);
+    }
 }

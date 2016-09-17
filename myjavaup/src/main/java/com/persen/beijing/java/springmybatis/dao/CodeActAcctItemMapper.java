@@ -3,9 +3,9 @@ package com.persen.beijing.java.springmybatis.dao;
 import com.persen.beijing.java.springmybatis.po.CodeActAcctItem;
 
 public interface CodeActAcctItemMapper extends IMapper<CodeActAcctItem> {
-	
-	public CodeActAcctItem select1(CodeActAcctItem c);
-	
+
+    public CodeActAcctItem select1(CodeActAcctItem c);
+
 //	public int countAll();
 //
 //	public CodeActAcctItem select(int acct_item_code);
