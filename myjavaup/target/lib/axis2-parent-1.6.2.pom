@@ -19,7 +19,8 @@
   ~ under the License.
   -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <parent>
         <groupId>org.apache</groupId>
         <artifactId>apache</artifactId>
@@ -916,7 +917,7 @@
                 <artifactId>commons-cli</artifactId>
                 <version>${commons.cli.version}</version>
             </dependency>
-            
+
             <!-- Jetty is used by some of the unit tests -->
             <dependency>
                 <groupId>jetty</groupId>
@@ -958,7 +959,8 @@
     </profiles>
     <scm>
         <connection>scm:svn:http://svn.apache.org/repos/asf/axis/axis2/java/core/tags/v1.6.2/modules/parent</connection>
-        <developerConnection>scm:svn:https://svn.apache.org/repos/asf/axis/axis2/java/core/tags/v1.6.2/modules/parent</developerConnection>
+        <developerConnection>scm:svn:https://svn.apache.org/repos/asf/axis/axis2/java/core/tags/v1.6.2/modules/parent
+        </developerConnection>
         <url>http://svn.apache.org/viewvc/axis/axis2/java/core/tags/v1.6.2/modules/parent</url>
     </scm>
     <build>
@@ -1054,7 +1056,7 @@
                     <artifactId>maven-bundle-plugin</artifactId>
                     <version>2.1.0</version>
                 </plugin>
-                
+
                 <!-- Use 1.5.2 versions of the aar and mar plugins in order to avoid
                      the chicken and egg problem. -->
                 <plugin>
@@ -1067,7 +1069,7 @@
                     <artifactId>axis2-mar-maven-plugin</artifactId>
                     <version>1.5.2</version>
                 </plugin>
-                
+
                 <!-- No chicken and egg problem here because the plugin doesn't expose
                      any extension. We can always use the version from the current build. -->
                 <plugin>
@@ -1109,7 +1111,7 @@
                      use an empty reportSet -->
                 <reportSets>
                     <reportSet>
-                        <reports />
+                        <reports/>
                     </reportSet>
                 </reportSets>
             </plugin>
