@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper
-        namespace="com.persen.beijing.java.springmybatis.dao.CodeActAcctItemMapper">
+        namespace="com.persen.beijing.springmybatis.dao.CodeActAcctItemMapper">
     <select id="countAll" resultType="int">
         select count(*) c from
         code_act_acct_item

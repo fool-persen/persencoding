@@ -18,7 +18,7 @@ class Test {
 
 /**
  * @auth lijy
- * @date 2016年9月2日 TODO
+ * @date 2016年9月2日
  */
 public class ExeMain {
 

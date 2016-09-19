@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.persen.beijing.java.mybatis.dao.InfoPayBalanceMapper">
+<mapper namespace="com.persen.beijing.mybatis.dao.InfoPayBalanceMapper">
     <select id="countAll" resultType="int">
         select count(*) c from
         info_pay_balance
     </select>
     <select id="getById"
-            resultType="com.persen.beijing.java.mybatis.po.InfoPayBalance"
+            resultType="com.persen.beijing.mybatis.po.InfoPayBalance"
             parameterType="long">
         select * from info_pay_balance where balance_id =
         #{balance_id}

@@ -82,5 +82,6 @@
     <orderEntry type="library" name="Maven: io.netty:netty-all:4.0.29.Final" level="project" />
     <orderEntry type="library" name="Maven: com.tydic.idGenerator:idGenerator:1.0.0" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-core:3.2.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: com.google.classpath-explorer:classpath-explorer:1.0" level="project" />
   </component>
 </module>

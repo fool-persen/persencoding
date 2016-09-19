@@ -5,7 +5,7 @@
 <configuration>
     <typeAliases>
         <!--给实体类起一个别名 user -->
-        <typeAlias type="com.persen.beijing.java.mybatis.po.InfoPayBalance" alias="InfoPayBalance"/>
+        <typeAlias type="com.persen.beijing.mybatis.po.InfoPayBalance" alias="InfoPayBalance"/>
     </typeAliases>
 
     <!--数据源配置  ORACLE数据库 -->

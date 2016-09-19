@@ -4,11 +4,11 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
     <typeAliases>
-        <typeAlias type="com.persen.beijing.java.springmybatis.po.CodeActAcctItem"
+        <typeAlias type="com.persen.beijing.springmybatis.po.CodeActAcctItem"
                    alias="CodeActAcctItem"/>
-        <typeAlias type="com.persen.beijing.java.springmybatis.po.BilActAddUp"
+        <typeAlias type="com.persen.beijing.springmybatis.po.BilActAddUp"
                    alias="BilActAddUp"/>
-        <typeAlias type="com.persen.beijing.java.springmybatis.po.BilActBalanceAddUp"
+        <typeAlias type="com.persen.beijing.springmybatis.po.BilActBalanceAddUp"
                    alias="BilActBalanceAddUp"/>
     </typeAliases>
 

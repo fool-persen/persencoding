@@ -14,7 +14,7 @@
 
     <context:component-scan base-package="com.persen.beijing"/>
     <bean id="AddUpServiceImpl"
-          class="com.persen.beijing.java.springmybatis.service.impl.AddUpServiceImpl"/>
+          class="com.persen.beijing.springmybatis.service.impl.AddUpServiceImpl"/>
 
     <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
         <property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/>
@@ -59,13 +59,13 @@
 
     <bean id="BilActAddUpMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
         <property name="mapperInterface"
-                  value="com.persen.beijing.java.springmybatis.dao.BilActAddUpMapper"></property>
+                  value="com.persen.beijing.springmybatis.dao.BilActAddUpMapper"></property>
         <property name="sqlSessionFactory" ref="sqlSessionFactory"></property>
     </bean>
 
     <bean id="BilActBalanceAddUpMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
         <property name="mapperInterface"
-                  value="com.persen.beijing.java.springmybatis.dao.BilActBalanceAddUpMapper"></property>
+                  value="com.persen.beijing.springmybatis.dao.BilActBalanceAddUpMapper"></property>
         <property name="sqlSessionFactory" ref="sqlSessionFactory"></property>
     </bean>
 

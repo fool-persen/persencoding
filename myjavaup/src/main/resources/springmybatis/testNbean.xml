@@ -14,7 +14,7 @@
 
 
     <bean id="itemService"
-          class="com.persen.beijing.java.springmybatis.service.impl.ItemServiceImpl">
+          class="com.persen.beijing.springmybatis.service.impl.ItemServiceImpl">
         <property name="transaction" ref="transaction"></property>
     </bean>
 
