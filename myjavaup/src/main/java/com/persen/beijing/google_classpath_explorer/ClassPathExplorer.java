@@ -4,6 +4,9 @@ import com.google.classpath.ClassPathFactory;
 import com.google.classpath.ResourceFilter;
 import com.google.classpath.ResourceFinder;
 
+import java.lang.reflect.Method;
+import java.util.List;
+
 public class ClassPathExplorer {
 
 	static String packageNames[] = {"com.persen.beijing"};
@@ -30,6 +33,9 @@ public class ClassPathExplorer {
 				System.out.println(className);
 			}
 		}
+
+		Method[] methods = factory.getClass().getMethods();
+		System.out.println(methods[0].getName());
 	}
 
 }
