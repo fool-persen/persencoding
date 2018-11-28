@@ -108,9 +108,9 @@ public abstract class MybatisBaseGenericDAOImpl<T, ID extends Serializable>
                 getSqlName(SQL_UPDATE), ob);
     }
 
-	/* (non-Javadoc)
+    /* (non-Javadoc)
      * @see com.harmony.framework.dao.mybatis.IBaseGenericDAO#getById(java.lang.String)
-	 */
+     */
 
     @SuppressWarnings("unchecked")
     public T getById(String id) {

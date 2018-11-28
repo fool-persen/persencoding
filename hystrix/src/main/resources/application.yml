@@ -1,0 +1,39 @@
+server:
+  port: 8081
+  servlet-path: /test
+  tomcat:
+    basedir: .
+    accesslog:
+      enabled: true
+      directory: ./logs
+      pattern: "%{X-Forwarded-For}i %a %{X-B3-TraceId}i %t %m %U %s %b %D"
+      rename-on-rotate: true
+      suffix: .log
+      prefix: access
+      rotate: true
+      buffered: false
+      file-date-format: yyyy-MM-dd
+spring:
+  application:
+    name: hystrix
+logging:
+  config: classpath:logback.xml
+  level:
+    cn:
+      px: debug
+hystrix:
+  threadpool:
+    default:
+      coreSize: 20
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    database: 3
+    password:
+    timeout: 3000
+#  cloud:
+#    config:
+#      name: service-gateway  #文件前缀名称
+#      profile: dev
+#      uri: http://127.0.0.1:8888
+

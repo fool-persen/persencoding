@@ -7,7 +7,7 @@ import javax.xml.bind.annotation.*;
  */
 
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlRootElement(name="record")
+@XmlRootElement(name = "record")
 public class XmlRecord {
     @XmlAttribute
     String name;

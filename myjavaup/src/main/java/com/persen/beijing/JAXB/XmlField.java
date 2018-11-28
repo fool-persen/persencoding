@@ -8,7 +8,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 /**
  * Created by persen on 16/9/19.
  */
-@XmlRootElement(name="field")
+@XmlRootElement(name = "field")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class XmlField {
     @XmlAttribute

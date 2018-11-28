@@ -18,9 +18,9 @@ import org.apache.axis2.rpc.client.RPCServiceClient;
 
 public class TestWebservice {
 
-	/*
+    /*
      * @Test public void Test(){ //testClient(); //testRPC(); testOMElement(); }
-	 */
+     */
 
     /**
      * 第一种 MyEclipse 生成客户端方式
