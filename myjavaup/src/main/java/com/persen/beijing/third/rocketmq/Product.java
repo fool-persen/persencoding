@@ -15,6 +15,7 @@ public class Product {
         producer.setNamesrvAddr("123.57.29.165:9876;101.200.78.122:9876");
         producer.setInstanceName("product");
         //producer.setVipChannelEnabled(false);
+        //producer.setSendMessageWithVIPChannel(false);
         producer.start();
     }
 

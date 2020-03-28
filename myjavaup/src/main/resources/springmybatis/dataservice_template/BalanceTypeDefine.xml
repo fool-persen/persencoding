@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.persen.beijing.springmybatis.dao.IBalanceTypeDefineDao">
+    <select id="selectAll" resultType="com.persen.beijing.springmybatis.po.BalanceTypeDefineData">
+        select balance_type, priority, unit_type, unit,
+        condition_id, carry_off_flag,
+        fee_group_id, formula_group, switch_times
+        from balance_type_define
+    </select>
+    <select id="getEntity" resultType="com.persen.beijing.springmybatis.po.BalanceTypeDefineData">
+        select balance_type, priority, unit_type, unit,
+        condition_id, carry_off_flag,
+        fee_group_id, formula_group, switch_times
+        from balance_type_define where balance_type=#{balanceType}
+    </select>
+</mapper>
