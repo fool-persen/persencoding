@@ -1,6 +1,7 @@
 server:
-  port: 8081
-  servlet-path: /test
+  port: 8080
+  servlet:
+    servlet-path: /test
   tomcat:
     basedir: .
     accesslog:
@@ -9,28 +10,32 @@ server:
       pattern: "%{X-Forwarded-For}i %a %{X-B3-TraceId}i %t %m %U %s %b %D"
       rename-on-rotate: true
       suffix: .log
-      prefix: access
+      prefix: accessRedisControler
       rotate: true
       buffered: false
       file-date-format: yyyy-MM-dd
 spring:
   application:
-    name: hystrix
-logging:
-  config: classpath:logback.xml
-  level:
-    cn:
-      px: debug
-hystrix:
-  threadpool:
-    default:
-      coreSize: 20
+    name: hystrix.z5
   redis:
-    host: 127.0.0.1
+    host: 127.0.01
     port: 6379
     database: 3
     password:
     timeout: 3000
+
+hystrix:
+  threadpool:
+    default:
+      coreSize: 20
+  rediscenter:
+    #    host: 127.0.0.1
+    #    port: 6379
+    #    database: 3
+    #    password:
+    #    timeout: 3000
+    path: /Users/persenlee/tmp
+    delay: 6000
 #  cloud:
 #    config:
 #      name: service-gateway  #文件前缀名称

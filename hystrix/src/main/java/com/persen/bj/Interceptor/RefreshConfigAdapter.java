@@ -1,6 +1,5 @@
 package com.persen.bj.Interceptor;
 
-import cn.px.irs.hystrix.refresh.Interceptor.RefreshInterceptors;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
