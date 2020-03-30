@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.persen.beijing.springmybatis.dao.IAccumulationDefineDao">
+    <select id="selectAll" resultType="com.persen.beijing.springmybatis.po.AccumulationDefineData">
+        select accumulation_code, accumulation_type, accumulation_unit, cycle_type, cycle_unit,
+        accumulation_level, ref_offset, condition_id, time_type
+        from accumulation_define
+    </select>
+</mapper>
